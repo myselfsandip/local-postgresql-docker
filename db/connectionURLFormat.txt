@@ -1,0 +1,8 @@
+Docker Commands 
+ --> docker compose up -d
+ 
+
+postgresql://<USER>:<PASSWORD>@<HOST>:<PORT>/<DATABASE>
+postgresql://user:user@localhost:5432/prismaDB
+
+Web Portal --- http://localhost:8080/url/gIBa-T
