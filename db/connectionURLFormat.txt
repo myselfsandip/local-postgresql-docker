@@ -6,3 +6,7 @@ postgresql://<USER>:<PASSWORD>@<HOST>:<PORT>/<DATABASE>
 postgresql://user:user@localhost:5432/prismaDB
 
 Web Portal --- http://localhost:8080/url/gIBa-T
+
+
+--You can use neon.tech for Remote Postgres DB 
+--and Superbase is also an option but there might be issue while using with prisma cause maybe superbase does not give access the Complete URL , just a single db 
