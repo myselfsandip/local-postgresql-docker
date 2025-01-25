@@ -1,13 +1,12 @@
 import { PrismaClient } from "@prisma/client";
 
-const prisma = new PrismaClient();
+const prisma = new PrismaClient({log:['info','query']});
 
 async function main() {
-    // ... you will write your Prisma Client queries here
     await prisma.user.create({
         data:{
-            email: "random@gmail.com",
-            name: "Random Bitch"
+            email: "random2@gmail.com",
+            name: "Random Bitch 2"
         }
     })
 }
@@ -21,3 +20,5 @@ main()
         await prisma.$disconnect();
         process.exit(1);
     });
+
+    
